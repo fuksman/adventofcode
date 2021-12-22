@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"container/list"
 	"fmt"
 	"os"
 	"strconv"
@@ -10,10 +9,8 @@ import (
 )
 
 var (
-	nums       = []int64{}
-	output     int64
-	phaseQueue = list.New()
-	inputQueue = list.New()
+	nums   = []int64{}
+	output int64
 )
 
 func main() {
